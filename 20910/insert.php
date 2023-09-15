@@ -12,10 +12,10 @@ $sql .="values('$id','$pass','$name','$email','$regist_day',9,0)";
 mysqli_query($con,$sql);
 mysqli_close($con);
 
-echo "회원 가입 완료"
-// echo"<script>
-//     location.href = 'login_form.php';
-//     </script>";
+// echo "회원 가입 완료"
+echo"<script>
+    location.href = 'login_form.php';
+    </script>";
 
 
 
