@@ -38,6 +38,8 @@
         <span><a href="logout.php">로그아웃</a></span>
         <span>ㅣ</span>
         <span><a href="modify_form.php">정보수정</a></span>
+        <span>ㅣ</span>
+        <span><a href="delete.php">탈퇴하기</a></span>
         <?php
     }
     ?>
