@@ -24,10 +24,10 @@
         else{
             session_start();
             $_SESSION["userid"]= $row["id"];
-            $SESSION["username"]=$row["name"];
+            $_SESSION["username"]=$row["name"];
 
-            echo "로그인 성공";
-            // echo"<script> location.href = 'index.php';</script>";
+            // echo "로그인 성공";
+            echo"<script> location.href = 'index.php';</script>";
         }
     }
 
